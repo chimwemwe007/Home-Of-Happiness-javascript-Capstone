@@ -2,7 +2,7 @@
 
 # Web Summit Conference: Mobile and Desktop Version
 
-> This is a HTML/CSS and Javscript based conference web application. The template can be used as an event or conference web application. This project has been developed as a part of Microverse capstone projects.
+> This is a HTML/CSS and Javscript based conference web application.it has been developed as part of a Microverse capstone project.
 
 ## Built With
 
@@ -16,10 +16,10 @@
 
 ## Live Demo
 
-- [App Live Demo](https://mirwaisfarahi.github.io/Microverse-Web-Summit)
+- [App Live Demo](http)
 
 ## Project Description
-- [Description](https://www.loom.com/share/646258f7bdfa47af805d90818eef683f)
+- [Description](This project is a website for a summit centred around shedding awareness on underpriviledged and orphaned children.)
 
 ## Getting Started
 
@@ -31,23 +31,17 @@ To get a local copy up and running follow these simple example steps.
 - Broswer to Display
 - IDE to run and edit the code
 
-### Setup
-
-- open a terminal
-- run ``` git clone git@github.com:mirwaisfarahi/portfolio.git```
-- run ``` cd portfolio```
-- open index.html
-
 ### Usage
 
 - It can be used as an conference or event web application.
 
 ## Authors
 
-👤 **Mirwais Farahi**
+👤 **Chimwemwe Mkandawire**
 
-- GitHub: [@githubhandle](https://github.com/mirwaisfarahi)
-- Twitter: [@twitterhandle](https://twitter.com/farahi92)
+- GitHub: [@githubhandle](https://github.com/chimwemwe007)
+- Twitter: [@twitterhandle](https://twitter.com/CHxMZ)'
+- LinkedIn: [@LinedInhandle](https://LinkedIn.com/chimwemweMKandawire)'
 
 
 ## 🤝 Contributing
