@@ -1,36 +1,36 @@
 const Speakers = [
   {
-    name: "Dr. Milton Kazanga Banda",
-    image: "images/afroman.jpg",
-    skill: "Clinical Phyologist and Cryptocurrency guru",
+    name: 'Dr. Milton Kazanga Banda',
+    image: 'images/afroman.jpg',
+    skill: 'Clinical Phyologist and Cryptocurrency guru',
     bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
 
   },
   {
-    name: "Barack Obama",
-    image: "images/barack-obama.jpg",
-    skill: "Former U.S President, Philantropist",
-    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    name: 'Barack Obama',
+    image: 'images/barack-obama.jpg',
+    skill: 'Former U.S President, Philantropist',
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
   },
   {
-    name: "Dr. Yusouf and Amina Mononga",
-    image: "/images/couple.jpg",
-    skill: "Dr. Yusouf and Amina Mononga PHd.",
-    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    name: 'Dr. Yusouf and Amina Mononga',
+    image: '/images/couple.jpg',
+    skill: 'Dr. Yusouf and Amina Mononga PHd.',
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
   },
   {
-    name: "Bill Gates",
-    image: "images/bill.png",
-    skill: "Philanthropist, Founder. Microsoft, Business Magnate",
-    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    name: 'Bill Gates',
+    image: 'images/bill.png',
+    skill: 'Philanthropist, Founder. Microsoft, Business Magnate',
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    name: "Ms. Gabi Gonzalez Ramires",
-    image: "images/woman.jpg",
-    skill: "Enterpreneur, Founder of Chalo Trust School",
-    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here"
-  }
-]
+    name: 'Ms. Gabi Gonzalez Ramires',
+    image: 'images/woman.jpg',
+    skill: 'Enterpreneur, Founder of Chalo Trust School',
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here",
+  },
+];
 
 const main = document.querySelector('#main');
 const sponsorsSection = document.querySelector('#sponsors-section');
@@ -58,8 +58,7 @@ Speakers.forEach((speaker) => {
     </div>
   </div>
 </div>`;
-})
-console.log(Speakers)
+});
 main.insertBefore(speakersSection, sponsorsSection);
 
 const moreBtn = document.querySelector('#more-speaker');
