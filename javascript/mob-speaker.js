@@ -1,86 +1,65 @@
+const Speakers = [
+  {
+    name: "Dr. Milton Kazanga Banda",
+    image: "images/afroman.jpg",
+    skill: "Clinical Phyologist and Cryptocurrency guru",
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+
+  },
+  {
+    name: "Barack Obama",
+    image: "images/barack-obama.jpg",
+    skill: "Former U.S President, Philantropist",
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    name: "Dr. Yusouf and Amina Mononga",
+    image: "/images/couple.jpg",
+    skill: "Dr. Yusouf and Amina Mononga PHd.",
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    name: "Bill Gates",
+    image: "images/bill.png",
+    skill: "Philanthropist, Founder. Microsoft, Business Magnate",
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+  },
+  {
+    name: "Ms. Gabi Gonzalez Ramires",
+    image: "images/woman.jpg",
+    skill: "Enterpreneur, Founder of Chalo Trust School",
+    bio: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here"
+  }
+]
+
 const main = document.querySelector('#main');
 const sponsorsSection = document.querySelector('#sponsors-section');
 
-const speakersSection = document.createElement('section');
+const speakersSection = document.getElementById('speaker');
 speakersSection.setAttribute('id', 'speakers-section');
 
-speakersSection.innerHTML = `
+Speakers.forEach((speaker) => {
+  speakersSection.innerHTML += `
 <h3>Featured Speakers</h3>
 <div class="section-underline" style="text-align:center; margin-left: 48%; margin-bottom: 0"></div>
-<div id ="all-speakers">
-<div class="speakers">
-<div class="speaker">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="images/afroman.jpg" alt="Dr. Milton Kazanga Banda">
-    <div class="speaker-details">
-        <h3 class="name">Dr. Milton Kazanga Banda</h3>
-        <i class="skill">Clinical Phyologist and Cryptocurrency guru </i>
-        <div class="speaker-underline"></div>
-        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
-    </div>
-</div>
-<div class="speaker">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="images/barack obama" alt="Barack Obama">
-    <div class="speaker-details">
-        <h3 class="name">Barack Obama</h3>
-        <i class="skill">Former U.S President, Philantropist </i>
-        <div class="speaker-underline"></div>
-        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</p>
-    </div>
-</div>
-<div class="speaker hide">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="/images/couple.png" alt="married couple">
-    <div class="speaker-details">
-        <h3 class="name">Dr. Yusouf and Amina Mononga</h3>
-        <i class="skill">Dr. Yusouf and Amina Monongo PHd.</i>
-        <div class="speaker-underline">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</div>
-        <p class="bio">
-        </p>
-    </div>
-</div>
-</div>
+  <div id ="all-speakers">
+    <div class="speakers">
+      <div class="speaker">
+          <img class="image1" src="images/chess.png" alt="background">
+          <img class="image2" src=${speaker.image} alt=${speaker.name}>
+          <div class="speaker-details">
+              <h3 class="name">${speaker.name}</h3>
+              <i class="skill">${speaker.skill} </i>
+              <div class="speaker-underline"></div>
+              <p class="bio">${speaker.bio}</p>
+          </div>
+      </div>
 
-<div class="speakers">
-<div class="speaker hide">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="images/bill.png" alt="#">
-    <div class="speaker-details">
-        <h3 class="name">Bill Gates</h3>
-        <i class="skill">Philanthropist, Founder. Microsoft, Business Magnate </i> 
-        <div class="speaker-underline"></div>
-        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
     </div>
-</div>
-<div class="speaker hide">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="images/bishop.jpg" alt="Bishop Walusungu">
-    <div class="speaker-details">
-        <h3 class="name">Bishop. Rev. Apostle. Dr. Walusungu Chagala Musonda</h3>
-        <i class="skill">Founding Bishop at Faith hope divine ministries</i>
-        <div class="speaker-underline"></div>
-        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.
-        </p>
-    </div>
-</div>
-<div class="speaker hide">
-    <img class="image1" src="images/flower.png" alt="background">
-    <img class="image2" src="images/Ms. Gabi Gonzalez Ramires" alt="Ms. Gabi Gonzalez Ramires">
-    <div class="speaker-details">
-        <h3 class="name">Ms. Gabi Gonzalez Ramires</h3>
-        <i class="skill">Enterpreneur, Founder of Chalo Trust School</i>
-        <div class="speaker-underline"></div>
-        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-        </p>
-    </div>
-</div>
-</div>
-</div>
-<button type="button" id="more-speaker" class="show-btn" >More <i class="fa fa-angle-down angle" aria-hidden="true"></i></button>
-<button type="button" id="less-speaker" class="hide-btn" >Less <i class="fa fa-angle-up angle" aria-hidden="true"></i></button>`;
-
+  </div>
+</div>`;
+})
+console.log(Speakers)
 main.insertBefore(speakersSection, sponsorsSection);
 
 const moreBtn = document.querySelector('#more-speaker');
