@@ -290,7 +290,8 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 30%;
+  width: 25%;
+  height: 100%;
 }
 
 .speaker-details {
@@ -680,8 +681,8 @@
   }
 
   .image2 {
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 100%;
   }
 
   .speaker-details {
