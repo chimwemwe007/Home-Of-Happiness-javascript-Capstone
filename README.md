@@ -16,10 +16,11 @@
 
 ## Live Demo
 
-- [App Live Demo](http)
+- [App Live Demo](https://chimwemwe007.github.io/CAPSTONE-MODULE1-HTML-CSS-Javascript/)
 
 ## Project Description
-- [Description](This project is a website for a summit centred around shedding awareness on underpriviledged and orphaned children.)
+- [Description](https://www.youtube.com/watch?v=tL4OWGVE6o8)(This project is a website for a summit centred around shedding awareness on underpriviledged and orphaned children.)
+- 
 
 ## Getting Started
 
