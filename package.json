@@ -1,0 +1,33 @@
+{
+  "name": "capstone-module1-html-css-javascript",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimwemwe007/CAPSTONE-MODULE1-HTML-CSS-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimwemwe007/CAPSTONE-MODULE1-HTML-CSS-Javascript/issues"
+  },
+  "homepage": "https://github.com/chimwemwe007/CAPSTONE-MODULE1-HTML-CSS-Javascript#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0"
+  }
+}
