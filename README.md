@@ -41,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Chimwemwe Mkandawire**
 
-- GitHub: [@githubhandle](https://github.com/chimwemwe007)
-- Twitter: [@twitterhandle](https://twitter.com/CHxMZ)'
-- LinkedIn: [@LinedInhandle](https://LinkedIn.com/chimwemweMKandawire)'
+- GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
+- Twitter: [@chxmz](https://twitter.com/CHxMZ)'
+- LinkedIn: [@chimwemwe-mkandawire](https://LinkedIn.com/chimwemweMKandawire)'
 
 
 ## 🤝 Contributing
